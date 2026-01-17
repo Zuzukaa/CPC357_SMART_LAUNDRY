@@ -3,13 +3,13 @@ import paho.mqtt.client as mqtt
 import json
 from datetime import datetime, timezone
 
-// 1. MongoDB Configuration
-// Connects to the local database you just installed
+# 1. MongoDB Configuration
+# Connects to the local database you just installed
 mongo_client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = mongo_client["smart_laundry"]
 collection = db["sensor_readings"]
 
-// 2. MQTT Configuration
+# 2. MQTT Configuration
 mqtt_broker_address = "35.208.56.72" 
 mqtt_topic = "laundry/sensor/data"
 
