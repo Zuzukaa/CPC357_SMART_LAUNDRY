@@ -50,6 +50,3 @@ The dashboard runs on http://localhost:3000.
 **Frontend Dashboard**
 - Fetches data via REST API from backend.
 - Displays live sensor values and LED-inspired status gradient.
-
-**Testing & Simulation**
-- Simulated ESP32 readings using Python Paho script for development without hardware.
